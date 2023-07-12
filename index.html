@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive-NavBar</title>
+    <!-- Fontawesome_cdn -->
+    <script
+      src="https://kit.fontawesome.com/cc22289122.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- js-file -->
+    <script src="/script.js" defer></script>
+    <!-- CSS-file -->
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="main-header-container">
+      <div class="top-header-area">
+        <div class="logo-area">
+          <img class="logo" src="images/i-logo.png" alt="Logo" />
+        </div>
+        <div class="search-area">
+          <input
+            type="text"
+            class="searchBox"
+            placeholder="What do you want to learn?"
+          />
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="authBtnArea">
+          <button class="signUp">Sign up</button>
+          <button class="signIn">sign in</button>
+        </div>
+      </div>
+      <div class="bottom-header-area">
+        <ul class="services">
+          <li class="serve">Courses <i class="fa-solid fa-angle-down"></i></li>
+          <li class="serve">One Neuron</li>
+          <li class="serve">Neuro Lab</li>
+          <li class="serve">Job Portal</li>
+          <li class="serve">Internship Portal</li>
+          <li class="serve">Become an affiliate</li>
+          <li class="serve">Hall of fame</li>
+          <li class="serve">Company <i class="fa-solid fa-angle-down"></i></li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- Small-screen header-section -->
+
+    <header class="small-header-conatiner">
+      <!-- mobile-menu -->
+      <ul class="mobileMenu mobile-menu">
+        <li class="menu-items">
+          Courses <i class="fa-solid fa-angle-right"></i>
+        </li>
+        <li class="menu-items">One Neuron</li>
+        <li class="menu-items">Neuro Lab</li>
+        <li class="menu-items">Job Portal</li>
+        <li class="menu-items">Internship Portal</li>
+        <li class="menu-items">Become an affiliate</li>
+        <li class="menu-items">Hall of fame</li>
+        <li class="menu-items">
+          Company <i class="fa-solid fa-angle-right"></i>
+        </li>
+        <div class="authBtnAreaResponsive">
+          <button class="signIn-small">sign in</button>
+          <button class="signUp-small">Sign up</button>
+        </div>
+      </ul>
+      <!-- hamburger-icon -->
+      <div class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+      <div class="mobile-logo-area">
+        <img src="/images/i-logo.png" alt="" class="mobile-logo" />
+      </div>
+      <div class="mobile-search-area">
+        <img src="/images/m-search.svg" alt="" class="mobile-search" />
+      </div>
+    </header>
+  </body>
+</html>
